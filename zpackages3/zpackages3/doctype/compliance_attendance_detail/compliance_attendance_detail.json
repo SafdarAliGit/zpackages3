@@ -1,0 +1,75 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-04-22 16:00:09.184497",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "employee",
+  "total_overtime",
+  "total_leaves",
+  "column_break_41id",
+  "branch",
+  "total_absent",
+  "total_working_days"
+ ],
+ "fields": [
+  {
+   "fieldname": "employee",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Employee",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "total_overtime",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Total Overtime"
+  },
+  {
+   "fieldname": "total_leaves",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Total Leaves"
+  },
+  {
+   "fieldname": "branch",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Branch",
+   "options": "Branch"
+  },
+  {
+   "fieldname": "total_absent",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Total Absent"
+  },
+  {
+   "fieldname": "total_working_days",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Total Working Days"
+  },
+  {
+   "fieldname": "column_break_41id",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2026-04-22 16:12:25.438033",
+ "modified_by": "Administrator",
+ "module": "Zpackages3",
+ "name": "Compliance Attendance Detail",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

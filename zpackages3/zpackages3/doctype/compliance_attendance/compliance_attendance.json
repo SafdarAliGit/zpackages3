@@ -1,0 +1,102 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:CA-{branch}-{month}",
+ "creation": "2026-04-22 16:04:43.870730",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "amended_from",
+  "branch",
+  "absent_allowed",
+  "overtime",
+  "column_break_u3wx",
+  "leaves_allowed",
+  "month",
+  "section_break_ysdj",
+  "compliance_attendance"
+ ],
+ "fields": [
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Compliance Attendance",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "branch",
+   "fieldtype": "Link",
+   "label": "Branch",
+   "options": "Branch"
+  },
+  {
+   "fieldname": "absent_allowed",
+   "fieldtype": "Int",
+   "label": "Absent Allowed"
+  },
+  {
+   "fieldname": "overtime",
+   "fieldtype": "Select",
+   "label": "Overtime",
+   "options": "\n0-30\n60-70"
+  },
+  {
+   "fieldname": "leaves_allowed",
+   "fieldtype": "Int",
+   "label": "Leaves Allowed"
+  },
+  {
+   "fieldname": "month",
+   "fieldtype": "Select",
+   "label": "Month",
+   "options": "\nJanuary\nFebruary\nMarch\nApril\nMay\nJune\nJuly\nAugust\nSeptember\nOctober\nNovember\nDecember"
+  },
+  {
+   "fieldname": "compliance_attendance",
+   "fieldtype": "Table",
+   "label": "Compliance Attendance",
+   "options": "Compliance Attendance Detail"
+  },
+  {
+   "fieldname": "column_break_u3wx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_ysdj",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2026-04-22 16:14:11.251778",
+ "modified_by": "Administrator",
+ "module": "Zpackages3",
+ "name": "Compliance Attendance",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

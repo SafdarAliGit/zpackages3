@@ -13,6 +13,8 @@
   "column_break_u3wx",
   "leaves_allowed",
   "month",
+  "attendance_marked",
+  "overtime_marked",
   "section_break_ysdj",
   "compliance_attendance"
  ],
@@ -68,13 +70,25 @@
   {
    "fieldname": "section_break_ysdj",
    "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "attendance_marked",
+   "fieldtype": "Check",
+   "label": "Attendance Marked"
+  },
+  {
+   "default": "0",
+   "fieldname": "overtime_marked",
+   "fieldtype": "Check",
+   "label": "Overtime Marked"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2026-04-22 16:14:11.251778",
+ "modified": "2026-04-22 16:34:09.133695",
  "modified_by": "Administrator",
  "module": "Zpackages3",
  "name": "Compliance Attendance",
